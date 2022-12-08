@@ -19,7 +19,7 @@
   @include breakpoint($large) {
     float: left;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
-    opacity: 0.75;
+    opacity: 0.95;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
 
@@ -124,6 +124,8 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
+  text-align: left;
+  padding-left: 20px;
   width: 36px;
   height: 36px;
 
@@ -149,11 +151,11 @@
   vertical-align: top;
   padding-left: 15px;
   padding-right: 25px;
-  line-height: 1;
+  line-height: 0.5;
 
   @include breakpoint($large) {
     display: block;
-    width: 100%;
+    width: 90%;
     padding-left: 0;
     padding-right: 0;
   }
@@ -168,8 +170,8 @@
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 1px;
   }
 }
 .sidebar .author__name {
@@ -181,8 +183,8 @@
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 1px;
+    margin-bottom: 5px;
   }
 }
 
@@ -191,7 +193,7 @@
   display: table-cell;
   vertical-align: middle;
   font-family: $sans-serif;
-  z-index: 20;
+  z-index: 10;
   cursor: pointer;
 
   li:last-child {
@@ -242,7 +244,7 @@
   display: none;
   position: absolute;
   right: 0;
-  margin-top: 15px;
+  margin-top: 5px;
   padding: 10px;
   list-style-type: none;
   border: 1px solid $border-color;
