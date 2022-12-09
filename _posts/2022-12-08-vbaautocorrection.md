@@ -1,10 +1,11 @@
 ---
 title: "Autocorrection Sheet VBA"
 layout: single
-author_profile: true
+author_profile: false
+image: \assets\Logo-excel.png
 categories:
-  - programming
-  - ste
+  - Programming
+  - Business
 tags:
   - VBA
   - Markdown
