@@ -2,7 +2,7 @@
 title: "Autocorrection Sheet VBA"
 layout: single
 author_profile: false
-image: \assets\Logo-excel.png
+image: \assets\icon-microsoft-excel.png
 categories:
   - Programming
   - Business

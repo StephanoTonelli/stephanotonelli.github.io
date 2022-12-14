@@ -6,9 +6,9 @@ layout: archive
 
 {% for post in site.categories.Programming %}
 <div class="container">
-  <img src="{{post.image}}" alt="{{post.image}}" style="max-height: 80px;margin-top: 15px; margin-bottom: -25px;">  
-  <p><a href="{{ post.url }}" style="margin-bottom: 0px; font-size: large;"><strong>{{ post.title }}</strong></a></p>
-    <div class="post-categories" style="font-size: small; margin-top: -30px;">
+  <img src="{{post.image}}" alt="{{post.image}}" style="max-height: 50px;margin-top: 10px;"><br>
+  <a href="{{ post.url }}" style="margin-bottom: 0; font-size: large;"><strong>{{ post.title }}</strong></a><br>
+    <div class="post-categories" style="font-size: small;">
       <strong>Categories: </strong>
       {% if post %}
         {% assign categories = post.categories %}
@@ -20,7 +20,7 @@ layout: archive
       {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
     </div>
-    <div class="post-tags" style="font-size: small; margin-top: 0px;">
+    <div class="post-tags" style="font-size: small;">
       <strong>Tags: </strong>
       {% if post %}
         {% assign tags = post.tags %}
