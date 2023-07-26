@@ -51,7 +51,7 @@ The code is triggered by a button click or can be set to run automatically when 
 
 <p style="font-size:0.8em">Code:</p>
 
-<pre><code style="font-size:0.7em;color: black">
+```
 Sub Correct()
 
 'Stop refreshing screen
@@ -490,6 +490,6 @@ Application.ScreenUpdating = False
 Application.ScreenUpdating = True
 
 End Sub
-</code></pre>
+```
 
 <p style="font-size:0.8em">This VBA code project can be a useful tool for teachers, educators, HR or anyone who frequently needs to correct tests on Microsoft Excel. Try it out and see how it can streamline your test correction process!</p>
