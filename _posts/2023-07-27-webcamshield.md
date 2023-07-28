@@ -15,6 +15,8 @@ tags:
     As a proactive measure to enhance privacy and security in the workplace, I designed a Webcam Protector for my colleagues' notebooks. The Webcam Protector is a 3D-printed accessory created using Autodesk Fusion 360, offering a simple and effective solution to cover built-in webcams when not in use. By utilizing my Ender 3 3D printer and ABS plastic filament, I successfully brought the design to life, ensuring durability and practicality for everyday use.
   </p>
   <img src="\assets\camera-cover-1.png" alt="Webcam Protector" class="image">
+  <p></p>
+  <a href="\assets\camera-cover-1.stl" download>Download the File</a>
   <h3>Key Features:</h3>
   <ul style="font-size:0.8em">
     <li>Customizable Design: The Webcam Protector's 3D model in Fusion 360 allowed for easy customization to fit various notebook models and webcam placements.</li>

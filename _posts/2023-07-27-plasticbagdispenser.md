@@ -16,6 +16,8 @@ tags:
   </p>
   <img src="\assets\bag-holder-1.png" alt="Plastic Bag Dispenser" class="image">
   <img src="\assets\bag-holder-2.png" alt="Plastic Bag Dispenser" class="image">
+  <p></p>
+  <a href="\assets\bag-holder-1.stl" download>Download the File</a>
   <h3>Key Features:</h3>
   <ul style="font-size:0.8em">
     <li>Customized Design: The Plastic Bag Dispenser's 3D model in Fusion 360 was tailored to perfectly fit standard plastic bags, ensuring a snug and secure fit.</li>

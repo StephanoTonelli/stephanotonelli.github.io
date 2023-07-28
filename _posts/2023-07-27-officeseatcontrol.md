@@ -14,6 +14,7 @@ tags:
     As part of my work at a previous company, I developed a customized Excel-based Office Seat Management Tool to efficiently control seat occupancy and meeting room availability. The tool was hosted on the company's server and provided real-time updates on the seating status, allowing employees to know the availability of seats before arriving at the office. It streamlined the process of finding and reserving a spot, contributing to a more organized and productive work environment.
   </p>
   <img src="\assets\Office-Seat-1.png" alt="Office Seat Management Tool" class="image">
+  <p></p>
   <a href="\assets\Office-Seat-0.xlsm" download>Download the File</a>
   <h3>Key Features:</h3>
   <ul style="font-size:0.8em">

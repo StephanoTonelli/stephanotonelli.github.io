@@ -31,6 +31,8 @@ tags:
   <img src="\assets\esfiha-shaper-1.png" alt="Esfiha Shaper Machine" class="image">
   <img src="\assets\esfiha-shaper-2.png" alt="Esfiha Shaper Machine" class="image">
   <img src="\assets\esfiha-shaper-3.png" alt="Esfiha Shaper Machine" class="image">
+  <p></p>
+  <a href="\assets\esfiha-shaper-1.stl" download>Download the File</a>
   <p style="font-size:0.8em">
     The Low-Cost Esfiha Shaper Machine was a successful blend of affordability, functionality, and food safety. By utilizing readily available materials and optimizing the design for kitchen use, the company could enhance their production process, ensuring the consistent and efficient shaping of Esfiha dough. This project demonstrated my ability to deliver innovative and cost-effective engineering solutions, meeting the unique requirements of the client's kitchen environment.
   </p>
