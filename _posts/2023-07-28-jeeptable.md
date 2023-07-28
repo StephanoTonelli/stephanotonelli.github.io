@@ -1,4 +1,4 @@
-<!-- ---
+---
 title: "Jeep Trunk Door Metal Camping Table"
 layout: single
 author_profile: false
@@ -7,12 +7,16 @@ categories:
   - Engineer
 tags:
   - Solid Works
---- -->
+---
 
   <p style="font-size:0.8em">
     I had the pleasure of designing a versatile metal camping table for a customer who owns a Jeep and enjoys camping adventures. The objective was to create a practical and functional table that could be easily attached to the trunk door of the Jeep, serving as a kitchen extension during camping trips. Leveraging SolidWorks, I meticulously crafted the design, accounting for precise measurements and bends in 1.2mm metal sheets to ensure a seamless and secure fit onto the Jeep trunk door. The final product combined functionality, durability, and aesthetic appeal, enriching the camping experience for the customer.
   </p>
-  <img src="jeep_trunk_table.jpg" alt="Jeep Trunk Door Metal Camping Table" class="image">
+  <img src="\assets\jeep-table-1.png" alt="Jeep Trunk Door Metal Camping Table" class="image">
+  <p></p>
+  <h3>Download blue prints:</h3>
+  <a href="\assets\jeep-table-1.PDF" download>Download 1</a>
+  <a href="\assets\jeep-table-2.PDF" download>Download 2</a>
   <h3>Key Features:</h3>
   <ul style="font-size:0.8em">
     <li>Custom Fit Design: The metal table was meticulously designed based on measurements and photos provided by the customer, ensuring a perfect fit on the Jeep trunk door.</li>
