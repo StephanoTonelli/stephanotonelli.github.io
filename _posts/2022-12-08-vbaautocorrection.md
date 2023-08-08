@@ -5,6 +5,7 @@ author_profile: false
 image: \assets\icon-microsoft-excel.png
 categories:
   - Programming
+  - Data Analyst
   - Business
 tags:
   - VBA

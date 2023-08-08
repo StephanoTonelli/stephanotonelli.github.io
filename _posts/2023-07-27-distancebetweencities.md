@@ -5,6 +5,7 @@ author_profile: false
 image: \assets\icon-Google-Apps-Script.png
 categories:
   - Programming
+  - Data Analyst
   - Business
   - Supply Chain
 tags:
