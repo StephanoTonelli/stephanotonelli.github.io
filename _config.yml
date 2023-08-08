@@ -20,7 +20,7 @@ title                    : "Stephano's Portfolio"
 title_separator          : "-"
 subtitle                 : A little bit of what I do.
 name                     : "Stephano Morales Tonelli"
-description              : "Hi! I'm a mechanical engineer from Brazil, programmer and a maker in my spare time."
+description              : "I'm a mechanical engineer from Brazil, programmer and a maker in my spare time."
 url                      : "stephanotonelli.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "stephanotonelli.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
