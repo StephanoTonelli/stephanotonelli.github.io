@@ -70,7 +70,7 @@ And then on my slicer program (Bambu Labs Studio) I cutted only the lock itself,
 <p></p>
 <img src="\assets\AdjustableHeightDogFeeder08.png" alt="Round shaped lock fast print 2" class="image">
 <p></p>
-<img src="\assets\AdjustableHeightDogFeeder09.png" alt="Round shaped lock fast print 3" class="image">
+<img src="\assets\AdjustableHeightDogFeeder09.jpg" alt="Round shaped lock fast print 3" class="image">
 
 <p style="font-size:0.8em">
 With only the small change on the slicer I saved half the cost in filament (5g/print) and 10min/print.
