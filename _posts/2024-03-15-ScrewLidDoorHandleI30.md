@@ -85,7 +85,7 @@ In that case some times we must come to a compromize of both appearance and stre
 <p></p>
 <img src="\assets\ScrewLidDoorHandleI30-12.png" alt="Print 9" class="image">
 <p></p>
-<img src="\assets\ScrewLidDoorHandleI30-13.png" alt="Good finish" class="image">
+<img src="\assets\ScrewLidDoorHandleI30-13.jpg" alt="Good finish" class="image">
 
 
 <h3>Final results:</h3>
