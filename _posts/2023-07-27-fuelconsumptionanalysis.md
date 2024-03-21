@@ -22,6 +22,13 @@ tags:
   <p style="font-size:0.8em">The dashboard served a dual purpose: not only did it improve fuel efficiency and reduce trip costs, but it also motivated drivers to adopt better driving practices and achieve superior results.</p>
 
   <p style="font-size:0.8em">The company adopted my dashboard as their primary analysis tool and for presenting to potential clients.</p>
+  <p></p>
+  <img src="\assets\fuelconsumptionanalysis-1.png" alt="Home screen, insights over route taken and key numbers" class="image">
+  <p></p>
+  <img src="\assets\fuelconsumptionanalysis-2.png" alt="Time in each stage of accelerator pedal, time in each RPM stage" class="image">
+  <p></p>
+  <img src="\assets\fuelconsumptionanalysis-3.png" alt="Consumption (L) / Distance (km) for each trip, considering the same route" class="image">
+  <p></p>
 
   <h2>Future Enhancements:</h2>
   <p style="font-size:0.8em">Although I left the company, future steps for enhancing the dashboard included:</p>
