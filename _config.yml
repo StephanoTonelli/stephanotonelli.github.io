@@ -131,9 +131,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/stephanotonelli"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "Medium"
+      icon: "fab fa-brands fa-medium"
+      url: "https://medium.com/@stephano_morales"
 
 # Site Footer
 footer:
