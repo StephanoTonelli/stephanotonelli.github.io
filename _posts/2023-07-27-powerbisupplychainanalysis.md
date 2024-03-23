@@ -6,6 +6,7 @@ image: \assets\icon-power-bi.png
 categories:
   - Business
   - Supply Chain
+  - Programming
 tags:
   - Power BI
 ---

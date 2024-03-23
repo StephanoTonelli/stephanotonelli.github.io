@@ -5,6 +5,7 @@ author_profile: false
 image: \assets\icon-autodesk-fusion-360.png
 categories:
   - Engineer
+  - Maker
 tags:
   - Fusion 360
   - 3D printing
