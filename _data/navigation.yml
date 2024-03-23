@@ -1,8 +1,6 @@
 # main links
 main:
-  - title: "Business"
-    url: "/business/"
-  - title: "Programming"
+  - title: "Data Analyst / PO"
     url: "/programming/"
   - title: "Engineer/Maker"
     url: "/engineer/"

@@ -1,5 +1,5 @@
 ---
-title: " Data Analyst / Programming"
+title: " Data Analyst / PO"
 permalink: /programming/
 layout: programming
 author_profile: true
