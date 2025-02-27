@@ -52,3 +52,4 @@ Proj1Streamlit/
 <p style="font-size:0.8em"><a href="https://github.com/StephanoTonelli/Proj1Streamlit" target="_blank">Project on GitHub</a></p>
 
 
+
