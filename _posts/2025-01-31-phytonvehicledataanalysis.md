@@ -48,6 +48,17 @@ Proj1Streamlit/
     <li><strong>Statistical Correlations:</strong> How odometer, transmission, and color impact prices.</li>
 </ul>
 
+<h2>Project Photos</h2>
+<p></p>
+<img src="\assets\VehicleSalesDashboard-1.png" alt="Dashboard" class="image">
+<p></p>
+<img src="\assets\VehicleSalesDashboard-2.png" alt="Dashboard" class="image">
+<p></p>
+<img src="\assets\VehicleSalesDashboard-3.png" alt="Dashboard" class="image">
+<p></p>
+<img src="\assets\VehicleSalesDashboard-4.png" alt="Dashboard" class="image">
+<p></p>
+
 <h2>Project Link</h2>
 <p style="font-size:0.8em"><a href="https://github.com/StephanoTonelli/Proj1Streamlit" target="_blank">Project on GitHub</a></p>
 
