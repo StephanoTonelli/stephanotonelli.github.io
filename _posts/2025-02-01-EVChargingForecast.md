@@ -6,7 +6,7 @@ image: \assets\icon-excel.png
 categories:
   - Data Analysis
   - Forecasting
-  - Sustainability
+  - Business
 tags:
   - Excel
   - Data Analysis
