@@ -156,19 +156,19 @@ I built a comprehensive test suite using Jupyter Notebooks. Test cases are defin
     <li><strong>Security:</strong> Multi-layer authentication (API keys + timestamp validation) prevents unauthorized access.</li>
 </ul>
 
-<h2>What I Learned</h2>
+<h2>What I Practiced</h2>
 <p style="font-size:0.8em">
-This project brought together several areas I'd been studying:
+This project allowed me to apply several technical areas in a production context:
 </p>
 <ul style="font-size:0.8em">
     <li><strong>API Design:</strong> Structuring endpoints, choosing HTTP methods, designing clear request/response schemas.</li>
     <li><strong>Security Implementation:</strong> API key authentication, timestamp validation, keeping secrets out of code.</li>
     <li><strong>Cloud Deployment:</strong> Working with Azure Container Apps, managing container images, configuring cloud resources.</li>
-    <li><strong>Azure Platform:</strong> Learning container services, networking, environment management, and monitoring.</li>
+    <li><strong>Azure Platform:</strong> Container services, networking, environment management, and monitoring.</li>
     <li><strong>Data Modeling:</strong> Translating complex rating logic into flexible, maintainable code.</li>
 </ul>
 <p style="font-size:0.8em">
-Building production APIs and deploying to cloud infrastructure was relatively new territory for me. My mechanical engineering background helped me understand the vehicle characteristics and efficiency factors, but the API development and cloud deployment side was a learning curve. FastAPI's excellent documentation and Azure's straightforward Container Apps service made it manageable.
+Building this production API brought together my technical skills with my mechanical engineering background. Understanding the vehicle characteristics and efficiency factors came naturally, and I was able to apply established API development and cloud deployment patterns to create a robust solution.
 </p>
 
 <h2>Practical Applications</h2>
