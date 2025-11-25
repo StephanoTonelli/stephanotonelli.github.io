@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-AU"
 title                    : "Stephano's Portfolio"
 title_separator          : "-"
-subtitle                 : A taste of what I can do.
+subtitle                 : Some of what I've done.
 name                     : "Stephano Morales Tonelli"
 description              : "I'm a Mechanical Engineer from Brazil, Data Analyst and a Maker in my spare time."
 url                      : "stephanotonelli.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
