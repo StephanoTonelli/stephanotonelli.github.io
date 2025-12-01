@@ -35,7 +35,7 @@ There's been no standard way to compare truck fuel efficiency or emissions in Au
 <ul style="font-size:0.8em">
     <li>API key authentication with expiration tracking and client name validation.</li>
     <li>Timestamp header validation for additional request security.</li>
-    <li>Dynamic scoring based on CSV-configured weights (pollution standards, efficiency features, aerodynamics, smart systems).</li>
+    <li>Dynamic scoring based on database-configured weights (pollution standards, efficiency features, aerodynamics, smart systems).</li>
     <li>Star rating generation with percentage breakdowns across categories.</li>
     <li>Intelligent advice system prioritizing retrofits over new vehicle purchases.</li>
     <li>Request logging to SQLite database via SQLAlchemy for audit trail.</li>
@@ -57,10 +57,7 @@ SmartTruckRating/
 │   ├── model_log.py              # Request logging model
 │   ├── routers/
 │   │   └── rating.py             # Rating endpoints
-│   └── data/
-│       ├── scoring_variables.csv # Configurable scoring weights
-│       ├── api_keys.csv          # API key management
-│       └── rating_table.csv      # Score to star conversion
+│   └── data/                     # (API keys managed in database)
 ├── tests/
 │   ├── test_cases.csv            # Test scenarios
 │   └── run_tests.ipynb           # Jupyter notebook for validation
@@ -72,9 +69,9 @@ SmartTruckRating/
 
 <h2>Design Decisions</h2>
 
-<h3 style="font-size:0.9em">CSV-Driven Configuration</h3>
+<h3 style="font-size:0.9em">Database-Driven Configuration</h3>
 <p style="font-size:0.8em">
-One of my favorite design choices was making the scoring logic configurable through CSV files. This allows the operations team to update scoring weights, add new features, or adjust rating thresholds without code changes. It's practical and maintainable.
+One of my favorite design choices was making the scoring logic configurable through database tables. I started by organizing all the scoring variables in CSV format during development to get a clear view of the weights and relationships, then created SQL tables to store these variables for production. This allows the operations team to update scoring weights, add new features, or adjust rating thresholds through direct database updates without code changes. It's practical and maintainable.
 </p>
 
 <h3 style="font-size:0.9em">Modular Business Logic</h3>
@@ -156,9 +153,9 @@ I built a comprehensive test suite using Jupyter Notebooks. Test cases are defin
     <li><strong>Security:</strong> Multi-layer authentication (API keys + timestamp validation) prevents unauthorized access.</li>
 </ul>
 
-<h2>What I Practiced</h2>
+<h2>Skills I Practiced</h2>
 <p style="font-size:0.8em">
-This project allowed me to apply several technical areas in a production context:
+This project gave me hands-on experience with several technical areas:
 </p>
 <ul style="font-size:0.8em">
     <li><strong>API Design:</strong> Structuring endpoints, choosing HTTP methods, designing clear request/response schemas.</li>
@@ -168,7 +165,7 @@ This project allowed me to apply several technical areas in a production context
     <li><strong>Data Modeling:</strong> Translating complex rating logic into flexible, maintainable code.</li>
 </ul>
 <p style="font-size:0.8em">
-Building this production API brought together my technical skills with my mechanical engineering background. Understanding the vehicle characteristics and efficiency factors came naturally, and I was able to apply established API development and cloud deployment patterns to create a robust solution.
+Building production APIs and deploying to cloud infrastructure was relatively new territory for me. My mechanical engineering background helped me understand the vehicle characteristics and efficiency factors, but the API development and cloud deployment side required focus and effort. FastAPI's excellent documentation and Azure's straightforward Container Apps service made it manageable.
 </p>
 
 <h2>Practical Applications</h2>
@@ -192,18 +189,13 @@ That repo uses basic scoring based on vehicle age, mileage, and engine size (com
 </p>
 <ul style="font-size:0.8em">
     <li>FastAPI routers and Pydantic schemas</li>
-    <li>CSV-based configuration</li>
+    <li>CSV-based configuration (the example uses CSV files for simplicity)</li>
     <li>API key authentication</li>
     <li>Request logging with SQLAlchemy</li>
     <li>Docker deployment</li>
 </ul>
 <p style="font-size:0.8em">
-The actual Smart Truck Rating API uses a far more sophisticated scoring model with dozens of weighted features across multiple categories, but the fundamental structure is the same.
-</p>
-
-<h2>Acknowledgments</h2>
-<p style="font-size:0.8em">
-Big thanks to Mark Gjerek for creating the rating scheme and to the Mov3ment team for trusting me to build the technical foundation for RateYourTruck.
+The actual Smart Truck Rating API uses database tables for all configuration (scoring variables, API keys, rating thresholds) and a far more sophisticated scoring model with dozens of weighted features across multiple categories, but the fundamental structure is the same.
 </p>
 
 <h2>Project Links</h2>
