@@ -7,6 +7,7 @@ categories:
   - Data Analysis
   - Forecasting
   - Business
+  - Programming
 tags:
   - Excel
   - Data Analysis
