@@ -2,7 +2,7 @@
 title: "EV Charging Infrastructure Forecast"
 layout: single
 author_profile: false
-image: \assets\icon-excel.png
+image: \assets\icon-microsoft-excel.png
 categories:
   - Data Analysis
   - Forecasting
