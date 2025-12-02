@@ -16,6 +16,9 @@ tags:
   - Docker
   - Jupyter
   - Performance Testing
+  - Gathering Requirements
+  - Product Backlog
+  - Stakeholder Communication
 ---
 
 <h2>Project Overview</h2>
@@ -163,6 +166,9 @@ This project gave me hands-on experience with several technical areas:
     <li><strong>Cloud Deployment:</strong> Working with Azure Container Apps, managing container images, configuring cloud resources.</li>
     <li><strong>Azure Platform:</strong> Container services, networking, environment management, and monitoring.</li>
     <li><strong>Data Modeling:</strong> Translating complex rating logic into flexible, maintainable code.</li>
+    <li><strong>Requirements Gathering:</strong> Working with stakeholders to understand the rating scheme, identify API functionality needs, and clarify edge cases.</li>
+    <li><strong>Product Management:</strong> Developing and maintaining a product backlog to guide development priorities and future enhancements.</li>
+    <li><strong>Stakeholder Communication:</strong> Translating technical concepts for non-technical stakeholders and gathering feedback on API behavior.</li>
 </ul>
 <p style="font-size:0.8em">
 Building production APIs and deploying to cloud infrastructure was relatively new territory for me. My mechanical engineering background helped me understand the vehicle characteristics and efficiency factors, but the API development and cloud deployment side required focus and effort. FastAPI's excellent documentation and Azure's straightforward Container Apps service made it manageable.
